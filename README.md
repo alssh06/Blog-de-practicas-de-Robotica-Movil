@@ -23,10 +23,10 @@ Además del láser, el código incorpora un **sistema de detección de atascos p
 
 ### Videos del codigo
 
+https://github.com/user-attachments/assets/c0dc69da-14e4-467a-802d-892561595b97
 
 
-
-
+https://github.com/user-attachments/assets/f3d9b376-98a6-4ffb-908a-64193d473b14
 
 
 ### Conclusiones
