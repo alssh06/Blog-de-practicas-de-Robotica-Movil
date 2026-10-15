@@ -33,7 +33,8 @@ Se ponen las velocidades actualizas al final del ciclo junto con una actualizaci
 
 
 ### Videos del código
-
+https://youtu.be/HtvsaJ5HRpQ 
+El video no se ve bien a causa de haber sido grabado en móvil, pero podemos observar que el coche completa el recorrido en 124,02 segundos
 
 ### Conclusiones
-Por lo que podemos ver el coche sigue a la linea con un poco de dificultades y ajustando constantemente la posición para asegurar un buen seguimiento. Durante la práctica se han encontrado dificultades en el ajuste general de los valores, que incluyen las Ks de los PIDs, las velocidades máximas y mínimas fijas y de aceleración y de frenado, y los valores de fijación de la cámara y los sensores. Se ha llegado a un punto aceptable con una velocidad media lenta, y es muy posible que se pueda mejorar, pero esta ha sido la mejor combinación a la que se ha logrado llegar.
+Por lo que podemos ver el coche sigue a la linea con un poco de dificultades y ajustando constantemente la posición para asegurar un buen seguimiento. Durante la práctica se han encontrado dificultades en el ajuste general de los valores, que incluyen las Ks de los PIDs, las velocidades máximas y mínimas fijas y de aceleración y de frenado, y los valores de fijación de la cámara y los sensores. Se ha llegado a un punto aceptable con una velocidad media lenta, y es muy posible que se pueda mejorar, pero esta ha sido la mejor combinación a la que se ha logrado llegar. Como comentario final, me gastaría añadir que el coche es mas estable con un controlador PD en el circuito inicial que con un controlador PID, pero no es así con el resto de pistas de carreras.
