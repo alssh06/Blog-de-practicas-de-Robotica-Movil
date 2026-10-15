@@ -3,8 +3,8 @@ El programa implementa un **sistema reactivo de bucle infinito** para que el coc
 
 #### Estados principales (selección de acción reactiva):
 - **FOLLOW**: Sigue la línea con control PID adaptativo.
-- **RECOVERING**: Intenta recuperar la línea usando el último error conocido (ventana corta de frames).
-- **SEARCH**: Búsqueda oscilante (senoidal) cuando se pierde la línea durante demasiado tiempo.
+- **RECOVERING**: Intenta recuperar la línea usando el último error conocido.
+- **SEARCH**: Búsqueda oscilante cuando se pierde la línea durante demasiado tiempo.
 
 #### Flujo de acción :
 
@@ -37,4 +37,4 @@ https://youtu.be/HtvsaJ5HRpQ
 El video no se ve bien a causa de haber sido grabado en móvil, pero podemos observar que el coche completa el recorrido en 124,02 segundos
 
 ### Conclusiones
-Por lo que podemos ver el coche sigue a la linea con un poco de dificultades y ajustando constantemente la posición para asegurar un buen seguimiento. Durante la práctica se han encontrado dificultades en el ajuste general de los valores, que incluyen las Ks de los PIDs, las velocidades máximas y mínimas fijas y de aceleración y de frenado, y los valores de fijación de la cámara y los sensores. Se ha llegado a un punto aceptable con una velocidad media lenta, y es muy posible que se pueda mejorar, pero esta ha sido la mejor combinación a la que se ha logrado llegar. Como comentario final, me gastaría añadir que el coche es mas estable con un controlador PD en el circuito inicial que con un controlador PID, pero no es así con el resto de pistas de carreras.
+Por lo que podemos ver el coche sigue a la linea con un poco de dificultades y ajustando constantemente la posición para asegurar un buen seguimiento. Durante la práctica se han encontrado dificultades en el ajuste general de los valores, que incluyen las Ks de los PIDs, las velocidades máximas y mínimas fijas y de aceleración y de frenado, y los valores de fijación de la cámara y los sensores. Se ha llegado a un punto aceptable con una velocidad media lenta, y es muy posible que se pueda mejorar, pero esta ha sido la mejor combinación a la que se ha logrado llegar. Como comentario final, me gustaría añadir que el coche es mas estable con un controlador PD en el circuito inicial que con un controlador PID, pero no es así con el resto de pistas de carreras.
