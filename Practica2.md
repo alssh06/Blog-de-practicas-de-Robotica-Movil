@@ -1,5 +1,5 @@
 ### Guion de funcionamiento del programa 
-El programa implementa un **sistema reactivo de bucle infinito** para que el coche de formula1 sega la línea roja, basado en la teoría de control clásico (PID) y en el paradigma de sistemas reactivos (actuación(t) = f(observación(t))).
+El programa implementa un **sistema reactivo de bucle infinito** para que el coche de formula1 sega la línea roja, basado en la teoría de control PID y en el paradigma de sistemas reactivos (actuación(t) = f(observación(t))).
 
 #### Estados principales (selección de acción reactiva):
 - **FOLLOW**: Sigue la línea con control PID adaptativo.
