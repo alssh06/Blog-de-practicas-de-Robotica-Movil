@@ -9,8 +9,7 @@ Cada elemento del entorno genera una fuerza virtual sobre el coche:
 - **Fuerza resultante:** la suma ponderada de ambas indica hacia dónde debe dirigirse el coche.
 
 ```mermaid
-flowchart LR
-    A[GPS + subobjetivo] --> B[Fuerza atractiva]
+    A[GPS + waypoint] --> B[Fuerza atractiva]
     C[Láser 180 rayos] --> D[Fuerza repulsiva]
     B --> E[Suma ponderada]
     D --> E
