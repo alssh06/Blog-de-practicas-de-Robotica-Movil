@@ -56,7 +56,7 @@ Cuando el coche está dentro de un radio determinado del subobjetivo, este se ma
 
 ## Vídeo del funcionamiento
 
-https://youtu.be/wmLxZhFRpTU (Enlace al video de youtube del funcionamiento)
+https://youtu.be/LAfOI3fSuNQ (Enlace al video de youtube del funcionamiento)
 
 ## Conclusiones
 
