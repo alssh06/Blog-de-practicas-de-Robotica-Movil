@@ -42,17 +42,6 @@ Aquí se aplica el truco que propone el enunciado del ejercicio. La repulsión t
 ### 6º. Cambio de subobjetivo
 Cuando el coche está dentro de un radio determinado del subobjetivo, este se marca como alcanzado **sin detener el coche** y se pasa al siguiente. Así no se pierde tiempo frenando en cada punto.
 
-### Problemas encontrados y soluciones
-
-**La repulsión apunta hacia atrás.** Sumada directamente a la atractiva producía una dirección que frenaba o invertía el movimiento. Se solucionó manteniendo positiva la componente de avance y dejando que solo la componente lateral gobierne el giro.
-
-**Indecisión (fuerzas que se anulan).** Con un obstáculo justo delante, las repulsiones de izquierda y derecha se compensan y la fuerza lateral es casi nula, así que el coche seguiría de frente hacia el obstáculo. En ese caso se compara el espacio libre de cada lado y se fuerza un giro hacia el lado con más hueco. Se añadió **histéresis**: solo se cambia de lado cuando la diferencia es clara, para que no oscile entre izquierda y derecha.
-
-**Velocidad frente a choques.** Subir la velocidad aumentaba los choques, sobre todo en curvas y al aparecer un coche de frente, porque el coche necesita más distancia para frenar y girar. Se ajustó de forma incremental, subiendo la velocidad máxima poco a poco y reforzando a la vez la seguridad: una distancia de influencia mayor para empezar a esquivar antes, un frenado progresivo según la distancia frontal y una reducción de velocidad en los giros cerrados, con una velocidad mínima para no perder tiempo en exceso.
-
-**Oscilaciones.** Un giro demasiado reactivo hacía que el coche zigzagueara en las rectas. Se limitó la velocidad angular máxima, se añadió un filtro paso bajo al giro y se ajustó la ganancia de dirección hasta encontrar un compromiso entre reaccionar rápido y no oscilar.
-
-**Coche atascado.** Una limitación conocida del VFF es que puede quedarse bloqueado. Si el coche lleva varias iteraciones con un obstáculo muy cerca de frente, retrocede girando hacia el lado más libre durante un tiempo y retoma la navegación.
 
 ## Vídeo del funcionamiento
 
