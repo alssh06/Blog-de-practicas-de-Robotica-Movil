@@ -5,3 +5,5 @@
 ## Practica 2: Control Visual con PID de un Fórmula1
 
 ## Practica 3: Navegación local esquivando obstáculos con algoritmo VFF 
+
+## P4: Navegación global con algoritmo GPP, plan como recurso
